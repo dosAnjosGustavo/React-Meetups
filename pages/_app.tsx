@@ -1,9 +1,13 @@
 import React from 'react';
-import { AppProps } from 'next/dist/shared/lib/router/router';
 import Layout from '../components/layout/Layout';
 import '../styles/globals.css';
 
-export default function MyApp({ Component, pageProps }: any) {
+interface MyAppProps {
+  Component: React.ComponentType<any>;
+  pageProps: any;
+}
+
+export default function MyApp({ Component, pageProps }: MyAppProps) {
   return (
     <Layout>
       <Component {...pageProps} />
