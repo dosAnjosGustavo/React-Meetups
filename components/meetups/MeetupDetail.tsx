@@ -1,3 +1,4 @@
+import React from 'react';
 import { Meetup } from '../../pages';
 import classes from './MeetupDetail.module.css';
 

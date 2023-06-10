@@ -1,3 +1,4 @@
+import React from 'react';
 import { Meetup, Meetups } from '../../pages';
 import MeetupItem from './MeetupItem';
 import classes from './MeetupList.module.css';

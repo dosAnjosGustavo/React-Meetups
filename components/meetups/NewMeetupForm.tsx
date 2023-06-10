@@ -1,5 +1,6 @@
 import { useRef } from 'react';
 
+import React from 'react';
 import Card from '../ui/Card';
 import classes from './NewMeetupForm.module.css';
 
