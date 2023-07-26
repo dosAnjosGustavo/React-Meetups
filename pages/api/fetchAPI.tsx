@@ -3,7 +3,7 @@ import { MongoClient } from 'mongodb';
 
 export async function fetchAPI() {
   const client = await MongoClient.connect(
-    'mongodb+srv://lalodosanjos:mPCo6CYIadZ7dh5M@cluster0.zbgexjr.mongodb.net/meetups?retryWrites=true&w=majority'
+    'mongodb+srv://lalodosanjos:hI1LgiVbQf02ky0j@cluster0.zbgexjr.mongodb.net/meetups?retryWrites=true&w=majority'
   );
 
   const db = client.db();
